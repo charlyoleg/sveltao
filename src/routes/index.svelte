@@ -3,6 +3,8 @@
 	import Birthin from '$lib/Birthin.svelte';
 	import Plus5 from '$lib/Plus5.svelte';
 
+	console.log("Page Home");
+
 </script>
 
 <h1>Page Home</h1>
