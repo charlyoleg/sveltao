@@ -10,9 +10,9 @@ const config = {
 			assets: 'build',
 			fallback: 'index.html',
 			precompress: false
-		})
+		}),
+		trailingSlash: 'always'
 	},
-	trailingSlash: 'always'
 };
 
 export default config;
