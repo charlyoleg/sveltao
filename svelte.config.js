@@ -10,10 +10,10 @@ import multiAdapter from '@macfja/svelte-multi-adapter';
 const config = {
 
 	kit: {
-		//adapter: adapter({out: 'build'}),
-		//adapter: adapter({
-		//	pages: 'build',
-		//	assets: 'build',
+		//adapter: nodeAdapter({out: 'output_node'}),
+		//adapter: staticAdapter({
+		//	pages: 'output_static',
+		//	assets: 'output_static',
 		//	fallback: 'index.html',
 		//	precompress: false
 		//}),
