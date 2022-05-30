@@ -9,15 +9,14 @@
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
-		"clean": "rm -fr .svelte-kit build"
+		"clean": "rm -fr .svelte-kit build output_static output_node"
 	},
 	"devDependencies": {
+		"@macfja/svelte-multi-adapter": "^1.0.2",
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "next",
-		"svelte": "^3.44.0",
 		"@sveltejs/adapter-node": "^1.0.0-next.76",
-		"@sveltejs/adapter-static": "^1.0.0-next.32"
-	},
-	"dependencies": {
+		"@sveltejs/adapter-static": "^1.0.0-next.32",
+		"@sveltejs/kit": "next",
+		"svelte": "^3.44.0"
 	}
 }
