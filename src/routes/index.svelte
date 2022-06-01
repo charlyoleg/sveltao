@@ -3,6 +3,7 @@
 	import Birthin from '$lib/Birthin.svelte';
 	import Plus5 from '$lib/Plus5.svelte';
 	import Clickapi from '$lib/Clickapi.svelte';
+	import BrowserClick from '$lib/BrowserClick.svelte';
 
 	console.log("Page Home");
 
@@ -13,4 +14,5 @@
 <Birthin/>
 <Plus5/>
 <Clickapi/>
+<BrowserClick/>
 

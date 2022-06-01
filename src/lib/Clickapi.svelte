@@ -17,6 +17,6 @@
 
 <style>
 	section h3 {
-		color: light green;
+		color: LightBlue;
 	}
 </style>
