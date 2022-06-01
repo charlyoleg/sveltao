@@ -1,7 +1,6 @@
 <script>
 
 	import { onMount } from 'svelte';
-	//import { browser } from '$app/env';
 
 
 	let count = 50;
@@ -13,34 +12,21 @@
 
 	onMount( () => {
 
-		//function abc(x) {
-		//	return(x+2);
-		//}
-
 		function plusdix() {
 			count += 10;
-			//console.debug(elem_button);
 		}
 
 		elem_button.addEventListener("click", plusdix);
-		//document.addEventListener("click", plusdix);
 
 		return( () => {
-			//if (!elem_button) {
-				elem_button.removeEventListener("click", plusdix);
-			//}
+			elem_button.removeEventListener("click", plusdix);
 		});
 	});
 
 
 
 	function plusdeux() {
-		//if (browser) {
-			//count = abc(count);
-			count += 2;
-		//} else {
-		//	console.log("Not in browser");
-		//}
+		count += 2;
 	}
 
 </script>
@@ -50,6 +36,5 @@
 	<button on:click={plusdeux}>Action</button>
 	<button use:getElemButton2>Action2</button>
 	<p>le message est {count}</p>
-
 </section>
 
