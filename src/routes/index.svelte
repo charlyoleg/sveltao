@@ -4,6 +4,7 @@
 	import Plus5 from '$lib/Plus5.svelte';
 	import Clickapi from '$lib/Clickapi.svelte';
 	import BrowserClick from '$lib/BrowserClick.svelte';
+	import Namedkeys from '$lib/Namedkeys.svelte';
 
 	console.log("Page Home");
 
@@ -15,4 +16,5 @@
 <Plus5/>
 <Clickapi/>
 <BrowserClick/>
+<Namedkeys/>
 
