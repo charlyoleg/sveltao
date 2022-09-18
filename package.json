@@ -8,7 +8,6 @@
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
-		"prepare": "svelte-kit sync",
 		"clean": "rm -fr .svelte-kit build output_static output_node"
 	},
 	"devDependencies": {
@@ -16,7 +15,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-node": "^1.0.0-next.76",
 		"@sveltejs/adapter-static": "^1.0.0-next.32",
-		"@sveltejs/kit": "next",
+		"@sveltejs/kit": "1.0.0-next.405",
 		"svelte": "^3.44.0"
 	}
 }
